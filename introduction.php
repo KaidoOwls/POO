@@ -28,5 +28,10 @@ $employe1 = new Employe("Diallo","Seydina", 23);
 
 $employe2 = new Employe("Malek", "Julien", 22);
 
+$employe3 = new Employe("Diouf", "Fleur", 52);
+
+
 $employe1->presentation();
 $employe2->presentation();
+$employe3->presentation();
+
