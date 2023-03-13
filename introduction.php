@@ -3,7 +3,7 @@ class Employe {
 
     public $nom;
     public $prenom;
-    public $age;
+    private $age;
 
     public function __construct($prenom, $nom, $age)
     {   
@@ -11,6 +11,18 @@ class Employe {
         $this->prenom = $prenom;
         $this->age = $age;
      
+    }
+
+    public function setAge() 
+    {
+        $this->age = $age; 
+    
+    } 
+
+    public function getAge()
+    {
+
+        return $this->age;
     }
 
     public function presentation() {
@@ -29,6 +41,8 @@ $employe1 = new Employe("Diallo","Seydina", 23);
 $employe2 = new Employe("Malek", "Julien", 22);
 
 $employe3 = new Employe("Diouf", "Fleur", 52);
+
+
 
 
 $employe1->presentation();
