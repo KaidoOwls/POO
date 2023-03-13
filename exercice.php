@@ -13,6 +13,4 @@ class animal
     public function avancer(int $nbpas) {
         // ...
     }
-
-
 }
